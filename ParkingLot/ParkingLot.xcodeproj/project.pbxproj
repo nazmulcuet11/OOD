@@ -7,16 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9A1624912669269000677A71 /* Fare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1624902669269000677A71 /* Fare.swift */; };
-		9A162494266926B600677A71 /* PaymentMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A162493266926B600677A71 /* PaymentMethod.swift */; };
-		9A162497266926C800677A71 /* FareCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A162496266926C800677A71 /* FareCalculator.swift */; };
-		9A212A7226688EB50002DC46 /* SpotAllocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A212A7126688EB50002DC46 /* SpotAllocationService.swift */; };
-		9A8A7F242668D8E500140A3A /* Tikcket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8A7F232668D8E500140A3A /* Tikcket.swift */; };
-		9A8A7F272668D95500140A3A /* ParkingFloor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8A7F262668D95500140A3A /* ParkingFloor.swift */; };
-		9A8A7F2B2668DED600140A3A /* PaymentProcessingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8A7F2A2668DED600140A3A /* PaymentProcessingService.swift */; };
+		7C063594266A467E00D205AA /* SpotRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C063593266A467E00D205AA /* SpotRepository.swift */; };
+		7C063597266A48B800D205AA /* Subscription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C063596266A48B800D205AA /* Subscription.swift */; };
+		7C3EEFC0266A5686004FCC50 /* PrintingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3EEFBF266A5686004FCC50 /* PrintingService.swift */; };
+		7C3EEFC3266A56A8004FCC50 /* ParkingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3EEFC2266A56A8004FCC50 /* ParkingService.swift */; };
+		7C3EEFCE266A578E004FCC50 /* ParkingLot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3EEFCD266A578E004FCC50 /* ParkingLot.swift */; };
+		7C3EEFD2266A665A004FCC50 /* PaymentStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3EEFD1266A665A004FCC50 /* PaymentStrategy.swift */; };
+		7C3EEFD8266A70B8004FCC50 /* PaymentService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3EEFD7266A70B8004FCC50 /* PaymentService.swift */; };
+		7C3EEFDB266A779B004FCC50 /* ExitPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3EEFDA266A779B004FCC50 /* ExitPanel.swift */; };
+		7C3EEFDE266A896E004FCC50 /* Voucher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3EEFDD266A896E004FCC50 /* Voucher.swift */; };
+		7C3EEFE1266A8999004FCC50 /* FareDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3EEFE0266A8999004FCC50 /* FareDetails.swift */; };
+		7CE10D512669DAEA000309B0 /* EntryPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE10D502669DAEA000309B0 /* EntryPanel.swift */; };
+		7CEB9117266A3090001FE3CF /* TicketRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CEB9116266A3090001FE3CF /* TicketRepository.swift */; };
+		9A8A7F242668D8E500140A3A /* Ticket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8A7F232668D8E500140A3A /* Ticket.swift */; };
 		9AF3ED7E2665FA87005ADF8E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF3ED7D2665FA87005ADF8E /* main.swift */; };
-		9AF3ED872665FB47005ADF8E /* ParkingSpot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF3ED862665FB47005ADF8E /* ParkingSpot.swift */; };
-		9AF3ED8A2665FBE6005ADF8E /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF3ED892665FBE6005ADF8E /* Vehicle.swift */; };
+		9AF3ED872665FB47005ADF8E /* Spot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF3ED862665FB47005ADF8E /* Spot.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -32,17 +37,22 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		9A1624902669269000677A71 /* Fare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fare.swift; sourceTree = "<group>"; };
-		9A162493266926B600677A71 /* PaymentMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentMethod.swift; sourceTree = "<group>"; };
-		9A162496266926C800677A71 /* FareCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FareCalculator.swift; sourceTree = "<group>"; };
-		9A212A7126688EB50002DC46 /* SpotAllocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotAllocationService.swift; sourceTree = "<group>"; };
-		9A8A7F232668D8E500140A3A /* Tikcket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tikcket.swift; sourceTree = "<group>"; };
-		9A8A7F262668D95500140A3A /* ParkingFloor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingFloor.swift; sourceTree = "<group>"; };
-		9A8A7F2A2668DED600140A3A /* PaymentProcessingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentProcessingService.swift; sourceTree = "<group>"; };
+		7C063593266A467E00D205AA /* SpotRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotRepository.swift; sourceTree = "<group>"; };
+		7C063596266A48B800D205AA /* Subscription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subscription.swift; sourceTree = "<group>"; };
+		7C3EEFBF266A5686004FCC50 /* PrintingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintingService.swift; sourceTree = "<group>"; };
+		7C3EEFC2266A56A8004FCC50 /* ParkingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingService.swift; sourceTree = "<group>"; };
+		7C3EEFCD266A578E004FCC50 /* ParkingLot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingLot.swift; sourceTree = "<group>"; };
+		7C3EEFD1266A665A004FCC50 /* PaymentStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentStrategy.swift; sourceTree = "<group>"; };
+		7C3EEFD7266A70B8004FCC50 /* PaymentService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentService.swift; sourceTree = "<group>"; };
+		7C3EEFDA266A779B004FCC50 /* ExitPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExitPanel.swift; sourceTree = "<group>"; };
+		7C3EEFDD266A896E004FCC50 /* Voucher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Voucher.swift; sourceTree = "<group>"; };
+		7C3EEFE0266A8999004FCC50 /* FareDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FareDetails.swift; sourceTree = "<group>"; };
+		7CE10D502669DAEA000309B0 /* EntryPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryPanel.swift; sourceTree = "<group>"; };
+		7CEB9116266A3090001FE3CF /* TicketRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketRepository.swift; sourceTree = "<group>"; };
+		9A8A7F232668D8E500140A3A /* Ticket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ticket.swift; sourceTree = "<group>"; };
 		9AF3ED7A2665FA87005ADF8E /* ParkingLot */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ParkingLot; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AF3ED7D2665FA87005ADF8E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		9AF3ED862665FB47005ADF8E /* ParkingSpot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingSpot.swift; sourceTree = "<group>"; };
-		9AF3ED892665FBE6005ADF8E /* Vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
+		9AF3ED862665FB47005ADF8E /* Spot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spot.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +69,7 @@
 		9AF3ED712665FA87005ADF8E = {
 			isa = PBXGroup;
 			children = (
+				7C063596266A48B800D205AA /* Subscription.swift */,
 				9AF3ED7C2665FA87005ADF8E /* ParkingLot */,
 				9AF3ED7B2665FA87005ADF8E /* Products */,
 			);
@@ -75,15 +86,19 @@
 		9AF3ED7C2665FA87005ADF8E /* ParkingLot */ = {
 			isa = PBXGroup;
 			children = (
-				9AF3ED892665FBE6005ADF8E /* Vehicle.swift */,
-				9AF3ED862665FB47005ADF8E /* ParkingSpot.swift */,
-				9A8A7F262668D95500140A3A /* ParkingFloor.swift */,
-				9A8A7F232668D8E500140A3A /* Tikcket.swift */,
-				9A212A7126688EB50002DC46 /* SpotAllocationService.swift */,
-				9A1624902669269000677A71 /* Fare.swift */,
-				9A162496266926C800677A71 /* FareCalculator.swift */,
-				9A162493266926B600677A71 /* PaymentMethod.swift */,
-				9A8A7F2A2668DED600140A3A /* PaymentProcessingService.swift */,
+				9AF3ED862665FB47005ADF8E /* Spot.swift */,
+				7C063593266A467E00D205AA /* SpotRepository.swift */,
+				9A8A7F232668D8E500140A3A /* Ticket.swift */,
+				7CEB9116266A3090001FE3CF /* TicketRepository.swift */,
+				7C3EEFE0266A8999004FCC50 /* FareDetails.swift */,
+				7C3EEFDD266A896E004FCC50 /* Voucher.swift */,
+				7C3EEFBF266A5686004FCC50 /* PrintingService.swift */,
+				7C3EEFD1266A665A004FCC50 /* PaymentStrategy.swift */,
+				7C3EEFD7266A70B8004FCC50 /* PaymentService.swift */,
+				7C3EEFC2266A56A8004FCC50 /* ParkingService.swift */,
+				7CE10D502669DAEA000309B0 /* EntryPanel.swift */,
+				7C3EEFDA266A779B004FCC50 /* ExitPanel.swift */,
+				7C3EEFCD266A578E004FCC50 /* ParkingLot.swift */,
 				9AF3ED7D2665FA87005ADF8E /* main.swift */,
 			);
 			path = ParkingLot;
@@ -146,16 +161,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9AF3ED8A2665FBE6005ADF8E /* Vehicle.swift in Sources */,
-				9A8A7F272668D95500140A3A /* ParkingFloor.swift in Sources */,
-				9A8A7F242668D8E500140A3A /* Tikcket.swift in Sources */,
-				9A1624912669269000677A71 /* Fare.swift in Sources */,
-				9AF3ED872665FB47005ADF8E /* ParkingSpot.swift in Sources */,
-				9A162497266926C800677A71 /* FareCalculator.swift in Sources */,
-				9A212A7226688EB50002DC46 /* SpotAllocationService.swift in Sources */,
-				9A162494266926B600677A71 /* PaymentMethod.swift in Sources */,
+				7C3EEFDB266A779B004FCC50 /* ExitPanel.swift in Sources */,
+				7C3EEFC0266A5686004FCC50 /* PrintingService.swift in Sources */,
+				9A8A7F242668D8E500140A3A /* Ticket.swift in Sources */,
+				7C3EEFD2266A665A004FCC50 /* PaymentStrategy.swift in Sources */,
+				7C063594266A467E00D205AA /* SpotRepository.swift in Sources */,
+				7C3EEFCE266A578E004FCC50 /* ParkingLot.swift in Sources */,
+				7C3EEFE1266A8999004FCC50 /* FareDetails.swift in Sources */,
+				9AF3ED872665FB47005ADF8E /* Spot.swift in Sources */,
+				7C3EEFC3266A56A8004FCC50 /* ParkingService.swift in Sources */,
+				7C3EEFDE266A896E004FCC50 /* Voucher.swift in Sources */,
+				7C063597266A48B800D205AA /* Subscription.swift in Sources */,
 				9AF3ED7E2665FA87005ADF8E /* main.swift in Sources */,
-				9A8A7F2B2668DED600140A3A /* PaymentProcessingService.swift in Sources */,
+				7CE10D512669DAEA000309B0 /* EntryPanel.swift in Sources */,
+				7C3EEFD8266A70B8004FCC50 /* PaymentService.swift in Sources */,
+				7CEB9117266A3090001FE3CF /* TicketRepository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

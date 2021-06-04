@@ -8,6 +8,7 @@
 import Foundation
 
 struct Ticket {
+    let id: String
     let vehicleId: String
     let spotId: String
     let issuedAt: Date
